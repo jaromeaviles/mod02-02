@@ -1,0 +1,138 @@
+/*
+ *
+ *
+ * CSS Reset
+ *
+ */
+
+ * {
+
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+ /*
+  *
+  * General Rules
+  *
+  */
+
+
+  body {
+   
+   
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffe2b0;
+
+  }
+
+  header#mainHeader {
+
+   background-color: #eab0bb;
+   min-height: 10vh;
+   font-family: 'Montserrat', sans-serif;
+   
+   
+  }
+
+  header#mainHeader > div {
+  	height: 100%;
+  	width: 50%;
+  	float: left;
+
+  }
+
+   header#mainHeader > div > h2 {
+    
+     line-height: 10vh;
+     margin-left: 15px;
+     
+
+   }
+
+  header#mainHeader  > div:last-child > ul {
+
+  	list-style: none;
+  	text-align: right;
+  }
+
+  header#mainHeader  > div:last-child > ul > li {
+
+  	display: inline;
+  	line-height: 10vh;
+  	margin-right: 15px;
+  	
+  }
+
+  header#mainHeader > div h2 , 
+  header#mainHeader  > div:last-child > ul > li > a{
+
+  	color: #000d35;
+  }
+
+   header#mainHeader  > div:last-child > ul > li > a {
+
+   	text-decoration: none;
+   }
+
+   header#mainHeader  > div:last-child > ul > li > a:hover {
+
+    color: #fff;
+
+   }
+
+  main#wrapper {
+
+  background-color: transparent;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 25px;
+
+  }
+
+  main#wrapper > h1 {
+
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #000d35;
+
+
+  }
+
+  main#wrapper > ul {
+
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+  }
+
+  main#wrapper > ul > li {
+    display: inline-block;
+    margin: 15px;
+  }
+  
+   main#wrapper > ul > li > a {
+   text-decoration: none;
+
+   }
+
+
+  main#wrapper > div > img {
+  	width: 100%;
+  	border: 2px solid pink;
+  	border-radius: 5px;
+  }
+
+  footer#mainFooter {
+  
+   background-color: pink;
+   min-height: 5vh;
+   text-align: center;
+   padding: 15px;
+
+  }
+
